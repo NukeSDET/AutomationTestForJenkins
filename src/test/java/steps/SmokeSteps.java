@@ -16,6 +16,20 @@ public class SmokeSteps {
         System.out.println("We are happy");
     }
 
+    @Given("I am run cucumber test")
+    public void i_am_run_cucumber_test() {
+        for (int i = 0 ; i<100 ; i ++){
+            System.out.println("this is cucmber");
+        }
+
+    }
+    @Then("verify this cucumber")
+    public void verify_this_cucumber() {
+       for (int i = 0; i<20; i ++){
+           System.out.println("indeed this cucumber !!!!!!!");
+       }
+    }
+
 
 
 

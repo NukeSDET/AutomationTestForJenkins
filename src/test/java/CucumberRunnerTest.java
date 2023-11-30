@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
         plugin = {"html:target/cucumber.html", "json:target/report.json"},
         features = "src/test/resources/features",
         glue = "steps",
-        tags = "@smoke",
+        tags = "@regression",
         dryRun = false // when we do only for methods in console , to do steps we do true , to run after we do false
 )
 
